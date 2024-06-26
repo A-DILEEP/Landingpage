@@ -6,19 +6,27 @@
 }
 .community-heading{
     font-weight: 600;
+    font-size: 25px;
     color:var(--mintext-bg);
-    text-shadow: 2px 3px 5px var(--mintext-bg);
+    text-shadow: 2px 3px 4px var(--mintext-bg);
     word-spacing: 4px;
 }
 .middletext{
     font-weight: 600;
+    font-size: 25px;
     color:var(--mintext-bg);
     word-spacing: 4px;
-    text-shadow: 2px 3px 5px var(--mintext-bg);
+    text-shadow: 2px 3px 4px var(--mintext-bg);
 }
 .community-subtext{
     margin-top: 2px;
     font-weight: 400;
-    color: var(--mintext-bg);
-    text-shadow: 2px 3px 5px var(--mintext-bg);
+    color: #717171;
+    text-shadow: 2px 4px 5px ;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

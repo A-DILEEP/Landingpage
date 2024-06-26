@@ -1,0 +1,30 @@
+*{
+    font-family: var(--font-family);
+}
+.communitycomponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 1px 9px 10px 1px var(--mintext-bg);
+    border-radius: 5px;
+}
+.img img{
+    width:45.24px;
+    height:38.98px;
+}
+.main-heading{
+    text-align: center;
+    height:51px;
+    width: 100%;
+    font-weight: 700;
+    color:var(--mintext-bg);
+}
+.community-subtext1{
+    text-align: center;
+    font-weight: 400;
+    color:#717171;
+}

@@ -2,13 +2,14 @@
     font-family: var(--font-family);
 }
 .header{
-    background-color: #f7f7f7;
+    background-color: var( --silver-bg);
     padding: 150px 90px;
     display: flex;
     margin-top: 13px;
     justify-content: center;
     align-items: center;
     height: 416.95px;
+    line-height: 30px;
 }
 .bigcontent{
     font-size:44.5px;
