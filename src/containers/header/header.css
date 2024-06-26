@@ -1,0 +1,44 @@
+*{
+    font-family: var(--font-family);
+}
+.header{
+    background-color: #f7f7f7;
+    padding: 150px 90px;
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+    align-items: center;
+    height: 416.95px;
+}
+.bigcontent{
+    font-size:44.5px;
+    font-weight: 600;
+    font-family:var(--font-family);
+    color:var(--mintext-bg);
+    line-height: 52.9px;
+    text-shadow: 2px 3px 5px #717171;
+}
+.bigcontent span{
+    color:var(--color-green)
+}
+.content{
+    width: 700px;
+}
+.image img{
+    height: 25rem;
+}
+.mincontent{
+    color:#717171;
+    margin-top: 5px;
+}
+.registerbtn{
+    height: 34px;
+    margin-top: 25px;
+    width: 85px;
+    background-color:var(--color-green);
+}
+button{
+    border: none;
+    border-radius: 4px;
+    color:#fff;
+}

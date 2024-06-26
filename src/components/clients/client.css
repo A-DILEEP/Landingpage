@@ -1,0 +1,27 @@
+.clients{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: var(--font-family);
+    margin-top: 20px;
+}
+.heading{
+    font-weight:600;
+    color:var(--mintext-bg);
+    text-shadow: 2px 3px 5px #717171;
+     word-spacing: 4px;
+}
+.subtext{
+    font-weight:300;
+    margin-top: 10px;
+    color: var(--mintext-bg);
+    text-shadow: 2px 3px 5px #717171;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+img{
+    height: 35px;
+}

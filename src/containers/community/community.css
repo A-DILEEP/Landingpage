@@ -1,0 +1,24 @@
+.community{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.community-heading{
+    font-weight: 600;
+    color:var(--mintext-bg);
+    text-shadow: 2px 3px 5px var(--mintext-bg);
+    word-spacing: 4px;
+}
+.middletext{
+    font-weight: 600;
+    color:var(--mintext-bg);
+    word-spacing: 4px;
+    text-shadow: 2px 3px 5px var(--mintext-bg);
+}
+.community-subtext{
+    margin-top: 2px;
+    font-weight: 400;
+    color: var(--mintext-bg);
+    text-shadow: 2px 3px 5px var(--mintext-bg);
+}
