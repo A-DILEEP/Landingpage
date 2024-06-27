@@ -1,6 +1,6 @@
 import React from 'react'
-import {Clients,Navbar,Helping} from './components'
-import {Customers,Footer,Header,Howtodesign,Community,Marketing,Pixelgrade} from './containers'
+import {Clients,Navbar} from './components'
+import {Customers,Footer,Header,Howtodesign,Community,Marketing,Pixelgrade,Helping} from './containers'
 import './app.css'
 const App = () => {
   return (
