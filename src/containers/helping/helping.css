@@ -1,6 +1,32 @@
 .helping{
     display: flex;
+    width: 100%;
+    height: 203px;
+    background-color: var( --silver-bg);
+    align-items: center;
+
 }
 .helping-left{
     margin-left: 200px;
+    width: 376px;
+    height: 84.57px;
+    line-height: 30.6px;
+}
+.helping-left-heading{
+    font-weight: 600;
+    font-size: 25.06px;
+}
+.helping-left-heading span{
+    color:var(--color-green);
+}
+.helping-left-text{
+    font-weight: 400;
+    font-size: 14.5px;
+}
+.helping-right{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 375.88px;
+    height: 113.84px;
+    margin-left: 50px;
 }
