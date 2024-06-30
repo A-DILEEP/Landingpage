@@ -17,13 +17,15 @@
     width: 510px;
 }
 .pixel-heading{
-    color:var(--mintext-bg);
+    color:#585858;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 35px;
     margin-bottom: 20px;
+
 }
 .pixel-text{
-    color:var(--mintext-bg);
+    color:#717171;
     font-weight: 400;
     color:var(--mintext-bg);
     text-align: justify;
