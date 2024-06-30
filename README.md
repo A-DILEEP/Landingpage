@@ -49,8 +49,8 @@ Create a new branch for your changes.
 Work your magic!
 Test thoroughly (because bugs are like uninvited guests - not cool).
 
-### Submit a pull request with a clear explanation of your awesomeness. (# h3)
+### Submit a pull request with a clear explanation of your awesomeness.
 ## ⚖️ License:  
 
-This project is licensed under the MIT License (https://opensource.org/license/mit). Check the LICENSE file for the details. 
+This project is licensed under the MIT License (https://opensource.org/license/mit). Check the [[LICENCE](https://github.com/A-DILEEP/landingpage/blob/master/LICENSE)] file for the details. 
 
