@@ -1,8 +1,0 @@
-title: "Landing Page "  # Replace with your website title
-baseurl: "/landingpage"  # Set to "" for root domain deployment, adjust if needed
-
-# Optional settings (consider adding later)
-# permalink: "/:year/:month/:day/:title.html"  # Custom permalink format
-# theme: "jekyll-theme"  # If using a specific theme
-
-exclude: ["Gemfile", "Gemfile.lock", "node_modules", ".DS_Store"]  #
