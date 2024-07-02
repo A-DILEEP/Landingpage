@@ -1,0 +1,46 @@
+.HowToDesign{
+    margin-top: 50px;
+    height: 370px;
+    width: 100%;
+    display: flex;
+    font-family: var(--font-family);
+}
+.HowToDesign-left{
+    display: flex;
+    height: 100%;
+    margin-left: 200px;
+}
+.HowToDesign-left img{
+    height: 320px;
+    width: 305px;
+}
+.HowToDesign-right{
+    margin-left: 90px;
+    width: 460px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+.HowToDesign-right-heading{
+    font-weight: 600;
+    font-size: 26px;
+    color:var(--min-bg);    
+    padding-bottom: 13px;
+}
+.HowToDesign-right-content{
+    color:var(--mintext-bg);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+}
+.HowToDesign-right-button{
+    margin-top: 20px;
+}
+.HowToDesign-right-button button{
+    background-color: var( --color-green);
+    height: 35px;
+    width: 120px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
