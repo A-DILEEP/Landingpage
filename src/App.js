@@ -1,7 +1,7 @@
 import React from 'react'
 import {Clients,Navbar} from './components'
 import {Customers,Footer,Header,Howtodesign,Community,Marketing,Pixelgrade,Helping} from './containers'
-import './app.css'
+import './App.css'
 const App = () => {
   return (
     <div className="app">
