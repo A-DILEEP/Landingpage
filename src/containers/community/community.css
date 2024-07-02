@@ -7,14 +7,14 @@
 .community-heading{
     font-weight: 600;
     font-size: 25px;
-    color:var(--mintext-bg);
+    color:#3a3a3a;
     text-shadow: 2px 3px 4px var(--mintext-bg);
     word-spacing: 4px;
 }
 .middletext{
     font-weight: 600;
     font-size: 25px;
-    color:var(--mintext-bg);
+    color:#3a3a3a;
     word-spacing: 4px;
     text-shadow: 2px 3px 4px var(--mintext-bg);
 }
