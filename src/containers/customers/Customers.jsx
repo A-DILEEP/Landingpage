@@ -4,9 +4,9 @@ import teslabuds from '../../assets/teslabuds.png'
 import img11 from '../../assets/11.png'
 import img22 from '../../assets/22.png'
 import img33 from "../../assets/33.png";
-import img44 from "../../assets/img4.png";
-import img55 from "../../assets/img5.png";
-import img66 from "../../assets/img6.png";
+import img44 from "../../assets/44.png";
+import img55 from "../../assets/55.png";
+import img66 from "../../assets/66.png";
 const Customers = () => {
   return (
     <div className="customers">
