@@ -16,6 +16,9 @@
 .customers-right{
     margin-left: 60px;
     margin-right: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
 }
 .customers-right-text{
     margin-top: -70px;
@@ -39,4 +42,23 @@
     font-weight:400;
     font-size: 12px;
     color: var(--min-bg);
+}
+.customers-right-vendors{
+    display: flex;
+    align-items: center;
+}
+.customers-right-vendors img{
+    height: 50px;
+    margin-top: 15px;
+    padding-right: 10px;  
+}
+.customers-right-vendors a{
+    color:var(--color-green);
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.customers-right-vendors span{
+    margin-left:4px ;
+    
 }

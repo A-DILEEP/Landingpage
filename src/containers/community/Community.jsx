@@ -7,7 +7,7 @@ import CommunityComponent from '../../components/community component/communityCo
 
 const Community = () => {
   return (
-    <div className="community">
+    <div className="community" id="community">
       <div className="community-heading">Manage your entire community</div>
       <div className="middletext">in a single system</div>
       <div className="community-subtext">Who is Nextcent suitable for?</div>

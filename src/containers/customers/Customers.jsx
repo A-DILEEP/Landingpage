@@ -7,6 +7,8 @@ import img33 from "../../assets/33.png";
 import img44 from "../../assets/44.png";
 import img55 from "../../assets/55.png";
 import img66 from "../../assets/66.png";
+import { FaLongArrowAltRight } from "react-icons/fa"; 
+
 const Customers = () => {
   return (
     <div className="customers">
@@ -41,6 +43,12 @@ const Customers = () => {
           <img src={img44} alt="first" />
           <img src={img55} alt="first" />
           <img src={img66} alt="first" />
+          <a href="Meet all customers ">
+            Meet all customers
+            <span>
+              <FaLongArrowAltRight size={15} width={20} />
+            </span>
+          </a>
         </div>
       </div>
     </div>

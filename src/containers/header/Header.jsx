@@ -3,7 +3,7 @@ import "./header.css";
 import img0 from '../../assets/img0.png'
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <div className="content">
         <div className="bigcontent">
           Lessons and insights <br/><span>from 8 years</span>
