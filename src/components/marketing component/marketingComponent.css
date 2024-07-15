@@ -1,0 +1,41 @@
+.marketingComponent{
+    display: flex;
+    height: 260px;
+    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+}
+.marketingComponent img{
+    width: 256px;
+    height:200px;
+    border-radius: 10px;
+}
+.marketingComponent-box{
+    background-color: #F5F7FA;
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 7px;
+    border-bottom:2px solid #646466;
+}
+.marketingComponent-box,.text{
+    font-weight: 600;
+    color:var(--min-bg);
+    margin-top: 10px;
+    font-size: 14px;
+}
+.marketingComponent-box .readmore{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.readmore a{
+    list-style: none;
+    color:var(--color-green);
+    text-decoration: none;
+}
