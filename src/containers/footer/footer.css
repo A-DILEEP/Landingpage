@@ -1,0 +1,24 @@
+.footer{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-top-heading p{
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    color:#263238;
+}
+.getADemo button{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;  
+    background-color: var(--color-green);
+}
