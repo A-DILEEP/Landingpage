@@ -1,9 +1,11 @@
 .footer{
-    width: 100vw;
-    height: 450px;
+    width: 100%;
+    height: 500px;
     display: flex;
     margin-top: 30px;
     justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 .footer-top{
     display: flex;
@@ -21,4 +23,103 @@
     width: 150px;
     height: 40px;  
     background-color: var(--color-green);
+}
+.footer-bottom{
+    background-color:#263238 ;
+    width:100%;
+    height: 100%;
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    
+}
+.footer-bottom-nexcent{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 100%;
+    align-items: center;
+}
+.footer-bottom-nexcent-heading{
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.footer-bottom-nexcent-minText{
+    margin-top: 25px;   
+}
+.footer-bottom-nexcent-minText p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer-bottom-nexcent-icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding-right: 55px;
+}
+.footer-bottom-nexcent-icons button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #54636b;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer-bottom-company{
+    padding-top: 50px;
+    line-height: 25px;
+}
+.footer-bottom-company-heading{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.footer-bottom-company-links a{
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.footer-bottom-support{
+    padding-top: 50px;
+    padding-left: 100px;
+    line-height: 25px;
+}
+.footer-bottom-support-heading{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.footer-bottom-support-links a{
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 200;
+    font-size: 13px;
+}
+.footer-bottom-stayUpTwoDate{
+    padding-top: 50px;
+    padding-left: 100px;
+    line-height: 25px;
+}
+.footer-bottom-stayUpTwoDate-heading{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.footer-bottom-input input{
+    width: 180px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8fa3ac;
 }
