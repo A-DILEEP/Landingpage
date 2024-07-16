@@ -50,7 +50,10 @@ li{
     margin-left: 10px;
     display: none;
 }
-@media (max-width:500px) {
+@media only screen and (max-width: 600px) {
+    .navbar{
+        width:auto;
+    }
   .navbar-items{
     display: none;
   }

@@ -2,7 +2,7 @@
   width: 100%;
   font-family: var(--font-family);
   display: flex;
-  padding: 80px 100px;
+  padding: 80px 90px;
 }
 .left {
   margin-right: 120px;
@@ -60,6 +60,27 @@
   }
   .pixel-heading{
     font-size: 17px;
+    line-height: 20px;
+  }
+  .pixel-text{
+    font-size: 15px;
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 600px){
+   .pixelgrade {
+    display: flex;
+    flex-direction:column-reverse;
+    padding-left: 65px;
+  }
+  .left img {
+    height: 150px;
+    width: 200px;
+    padding-left: 35px;
+    margin-top: 25px;
+  }
+  .pixel-heading{
+    font-size: 20px;
     line-height: 20px;
   }
   .pixel-text{

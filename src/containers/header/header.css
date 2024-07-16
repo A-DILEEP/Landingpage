@@ -8,8 +8,9 @@
   margin-top: 13px;
   justify-content: center;
   align-items: center;
-  height: 416.95px;
+  height: auto;
   line-height: 30px;
+  width: 100%;
 }
 .bigcontent {
   font-size: 44.5px;
@@ -52,6 +53,7 @@ button {
     line-height: 20px;
     flex-direction: column;
     width: 100%;
+    padding: 20px 10px;
   }
   .content {
     display: flex;
@@ -80,5 +82,48 @@ button {
   }
   .registerbtn{
     margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .header{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bigcontent {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: var(--mintext-bg);
+    line-height: 30px;
+    text-shadow: 2px 3px 5px #717171;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mincontent {
+    color: #717171;
+    margin-top: 5px;
+    font-size: 10px;
+    display: inline-block;
+  }
+  .registerbtn{
+    margin-bottom: 50px;
+  }
+  .image img {
+    margin-top: 40px;
+    height: 13rem;
+    width: 200px;
   }
 }
