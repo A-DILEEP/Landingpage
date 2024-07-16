@@ -1,51 +1,69 @@
-.pixelgrade{
-    width: 100%;
-    font-family: var(--font-family);
+.pixelgrade {
+  width: 100%;
+  font-family: var(--font-family);
+  display: flex;
+  padding: 80px 100px;
+}
+.left {
+  margin-right: 120px;
+  margin-left: 25px;
+}
+.left img {
+  height: 301px;
+  width: 307.66px;
+}
+.right {
+  width: 510px;
+}
+.pixel-heading {
+  color: #585858;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.pixel-text {
+  color: #717171;
+  font-weight: 400;
+  color: var(--mintext-bg);
+  text-align: justify;
+}
+.pixel-button {
+  margin-top: 30px;
+  width: 130px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-green);
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.pixel-button button {
+  background-color: var(--color-green);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 360px) {
+  .pixelgrade {
     display: flex;
-    padding: 80px 100px;
-
-}
-.left{
-    margin-right: 120px;
-    margin-left: 25px;
-}
-.left img{
-    height:301px;
-    width: 307.66px;
-}
-.right{
-    width: 510px;
-}
-.pixel-heading{
-    color:#585858;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 35px;
-    margin-bottom: 20px;
-
-}
-.pixel-text{
-    color:#717171;
-    font-weight: 400;
-    color:var(--mintext-bg);
-    text-align: justify;
-}
-.pixel-button{
-    margin-top: 30px;
-    width: 130px;
-    height: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-green);
-    border: none;
-    font-weight: 500;
-    font-size: 13px;
-    border-radius: 5px;
-}
-.pixel-button button{
-    background-color: var(--color-green);
-    color:#fff;
-    border: none;
-    cursor:pointer;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .left img {
+    height: 150px;
+    width: 200px;
+    padding-left: 30px;
+  }
+  .pixel-heading{
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .pixel-text{
+    font-size: 15px;
+    width: 280px;
+  }
 }

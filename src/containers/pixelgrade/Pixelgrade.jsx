@@ -11,7 +11,8 @@ const Pixelgrade = () => {
       </div>
       <div className="right">
         <div className="pixel-heading">
-          The unseen of spending three <br/> years at Pixelgrade
+            The unseen of spending three <br /> years at Pixelgrade
+         
         </div>
         <div className="pixel-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
@@ -21,7 +22,9 @@ const Pixelgrade = () => {
           Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
           elementum pulvinar odio.
         </div>
-        <div className="pixel-button"><button>Learn More</button></div>
+        <div className="pixel-button">
+          <button>Learn More</button>
+        </div>
       </div>
     </div>
   );

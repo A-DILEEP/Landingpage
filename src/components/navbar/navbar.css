@@ -2,16 +2,19 @@ body{
     padding-top: 10px;
     font-family: var(--font-family);
 }
+.logo{
+    margin-left: 100px;
+}
 .logo h2{
     color:#263238;
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    width: 100%;
 }
 .items{
     display: flex;
-    padding-right: 70px;
+    margin-left: 23rem;
 }
 .navbar-items{
     display: flex;
@@ -41,6 +44,22 @@ li{
     display:inline-block;
     cursor: pointer;
 }
-
+.menu-toggle{
+    width: 40px;
+    height: 35px;
+    margin-left: 10px;
+    display: none;
+}
+@media (max-width:500px) {
+  .navbar-items{
+    display: none;
+  }
+  .register{
+    display: none;
+  }
+  .logo{
+    margin-left: 20px;
+  }
+}
 
 
