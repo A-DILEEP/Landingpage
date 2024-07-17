@@ -3,14 +3,14 @@
 }
 .header {
   background-color: var(--silver-bg);
-  padding: 150px 90px;
+  padding: 10px 70px;
   display: flex;
   margin-top: 13px;
   justify-content: center;
   align-items: center;
   height: auto;
   line-height: 30px;
-  width: auto;
+  width: 100%;
 }
 .bigcontent {
   font-size: 44.5px;
@@ -18,7 +18,7 @@
   font-family: var(--font-family);
   color: var(--mintext-bg);
   line-height: 52.9px;
-  text-shadow: 2px 3px 5px #717171;
+  text-shadow: 5px 5px 7px #717171;
 }
 .bigcontent span {
   color: var(--color-green);
@@ -66,8 +66,6 @@ button {
     font-weight: 600;
     font-family: var(--font-family);
     color: var(--mintext-bg);
-    line-height: 30px;
-    text-shadow: 2px 3px 5px #717171;
     margin-bottom: 10px;
   }
   .image img {
@@ -102,11 +100,7 @@ button {
   }
   .bigcontent {
     font-size: 20px;
-    font-weight: 600;
-    font-family: var(--font-family);
-    color: var(--mintext-bg);
-    line-height: 30px;
-    text-shadow: 2px 3px 5px #717171;
+    line-height:30px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;

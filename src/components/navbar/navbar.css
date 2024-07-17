@@ -11,7 +11,7 @@ body{
 }
 .navbar{
     display: flex;
-    width: auto;
+    width: 100%;
 }
 .items{
     display: flex;
@@ -62,7 +62,7 @@ li{
     display: none;
   }
   .logo{
-    margin-left: 20%;
+    margin-left: 10%;
   }
 }
 
