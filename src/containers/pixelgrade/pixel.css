@@ -71,13 +71,14 @@
    .pixelgrade {
     display: flex;
     flex-direction:column-reverse;
-    padding-left: 65px;
+    padding-left: 22%;
+    justify-content: center;
   }
   .left img {
-    height: 150px;
-    width: 200px;
-    padding-left: 35px;
-    margin-top: 25px;
+    height: 200px;
+    width: 250px;
+    padding-left: 22%;
+    margin-top: 40px;
   }
   .pixel-heading{
     font-size: 20px;
@@ -85,6 +86,6 @@
   }
   .pixel-text{
     font-size: 15px;
-    width: 280px;
+    width: 62%;
   }
 }

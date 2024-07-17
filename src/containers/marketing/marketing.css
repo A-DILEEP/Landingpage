@@ -32,3 +32,21 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 600px){
+    .marketingHeading{
+        font-size: 22px; 
+        margin-bottom: 5px;   
+    }
+    .marketingHead-normalText{
+        font-size: 13px;
+        width: 85%;
+    }
+    .marketingBottom{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        height: auto;
+    }
+}

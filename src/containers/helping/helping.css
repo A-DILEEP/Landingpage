@@ -1,14 +1,14 @@
 .helping {
   display: flex;
   width: 100%;
-  height: 203px;
+  height: auto;
   background-color: var(--silver-bg);
   align-items: center;
 }
 .helping-left {
   margin-left: 200px;
-  width: 376px;
-  height: 84.57px;
+  width: auto;
+  height: auto;
   line-height: 30.6px;
 }
 .helping-left-heading {
@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: auto auto;
   width: 375.88px;
-  height: 113.84px;
+  height: auto;
   margin-left: 50px;
 }
 @media only screen and (max-width: 600px) {
@@ -36,21 +36,25 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .helping-left-heading {
     font-size: 20px;
     flex-wrap: nowrap;
-    width: 300px;
+    width: auto;
     margin-bottom: 10px;
+    margin-left: -15%;
   }
   .helping-left-text {
-    width: 300px;
-    margin-left: -40px;
+    width: auto;
+    margin-left: -25%;
     margin-bottom: 10px;
     font-size: 12px;
   }
   .helping-right{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
   }

@@ -26,16 +26,16 @@ const Footer = () => {
             <p>All rights reserved</p>
           </div>
           <div className="footer-bottom-nexcent-icons">
-            <button>
+            <button className="icon-btn">
               <SiInstagram />
             </button>
-            <button>
+            <button className="icon-btn">
               <FaDribbble />
             </button>
-            <button>
+            <button className="icon-btn">
               <SlSocialTwitter />
             </button>
-            <button>
+            <button className="icon-btn">
               <AiOutlineYoutube />
             </button>
           </div>

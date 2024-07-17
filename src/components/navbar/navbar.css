@@ -2,6 +2,7 @@ body{
     padding-top: 10px;
     font-family: var(--font-family);
 }
+
 .logo{
     margin-left: 100px;
 }
@@ -10,7 +11,7 @@ body{
 }
 .navbar{
     display: flex;
-    width: 100%;
+    width: auto;
 }
 .items{
     display: flex;
@@ -61,7 +62,7 @@ li{
     display: none;
   }
   .logo{
-    margin-left: 20px;
+    margin-left: 20%;
   }
 }
 

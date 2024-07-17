@@ -10,7 +10,7 @@
   align-items: center;
   height: auto;
   line-height: 30px;
-  width: 100%;
+  width: auto;
 }
 .bigcontent {
   font-size: 44.5px;
@@ -24,7 +24,7 @@
   color: var(--color-green);
 }
 .content {
-  width: 700px;
+  width: 80%;
 }
 .image img {
   height: 25rem;
