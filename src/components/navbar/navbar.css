@@ -12,15 +12,16 @@ body{
 .navbar{
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 .items{
     display: flex;
-    margin-left: 23rem;
+    margin-right: 20px;
 }
 .navbar-items{
     display: flex;
     text-decoration: none;
-    align-items: center;
+    align-items:center;
 }
 .navbar-items li a{
     color: var(--mintext-bg);
@@ -29,14 +30,15 @@ body{
 }
 li{
     list-style: none;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .register{
     margin-left: 30px;
-    height: 35px;
-    width:150px;
+    height: auto;
+    width:auto ;
     border-radius: 3px;
     border: none;
+    padding: 2px 5px;
     color:#fff;
     font-size: 15px;
     text-align: center;
