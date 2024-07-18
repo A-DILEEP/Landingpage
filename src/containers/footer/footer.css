@@ -23,6 +23,10 @@
   width: 150px;
   height: 40px;
   background-color: var(--color-green);
+  cursor: pointer;
+}
+.getADemo button:hover{
+  box-shadow: 1px 1px 16px var(--color-green);
 }
 .footer-bottom {
   background-color: #263238;

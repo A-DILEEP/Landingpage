@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    height: auto;
+    height: 50vh;
     align-items: center;
     font-family: var(--font-family);
     background-color: var(--silver-bg);
