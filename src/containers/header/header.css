@@ -43,6 +43,7 @@ button {
   border: none;
   border-radius: 4px;
   color: #fff;
+  cursor: pointer;
 }
 @media (max-width: 360px) {
   .header {

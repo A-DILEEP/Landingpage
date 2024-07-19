@@ -1,6 +1,15 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin:0;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+button {
+  height: 35px;
+  width: 120px;
+  background-color: var(--color-green);
+}
+button :hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 16px var(--color-green);
 }

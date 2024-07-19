@@ -1,71 +1,75 @@
-body{
-    padding-top: 10px;
-    font-family: var(--font-family);
+body {
+  padding-top: 10px;
+  font-family: var(--font-family);
 }
 
-.logo{
-    margin-left: 100px;
+.logo {
+  margin-left: 100px;
 }
-.logo h2{
-    color:#263238;
+.logo h2 {
+  color: #263238;
 }
-.navbar{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.items{
-    display: flex;
-    margin-right: 20px;
+.items {
+  display: flex;
+  margin-right: 20px;
 }
-.navbar-items{
-    display: flex;
-    text-decoration: none;
-    align-items:center;
+.navbar-items {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
 }
-.navbar-items li a{
-    color: var(--mintext-bg);
-    text-decoration: none;
-
+.navbar-items li a {
+  color: var(--mintext-bg);
+  text-decoration: none;
 }
-li{
-    list-style: none;
-    margin-left: 10px;
+.navbar-items a:hover {
+  color: var(--color-green);
+  border-bottom: 2px solid var(--color-green);
 }
-.register{
-    margin-left: 30px;
-    height: 30px;
-    width:auto ;
-    border-radius: 3px;
-    border: none;
-    padding: 2px 5px;
-    color:#fff;
-    font-size: 15px;
-    text-align: center;
-    align-items: center;
-    background-color: var(--color-green);
-    display:inline-block;
-    cursor: pointer;
+button:hover {
+    box-shadow: 1px 1px 16px var(--color-green);
 }
-.menu-toggle{
-    width: 40px;
-    height: 35px;
-    margin-left: 10px;
-    display: none;
+li {
+  list-style: none;
+  margin-left: 10px;
+}
+.register {
+  margin-left: 30px;
+  height: 30px;
+  width: auto;
+  border-radius: 3px;
+  border: none;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--color-green);
+  display: inline-block;
+  cursor: pointer;
+}
+.menu-toggle {
+  width: 40px;
+  height: 35px;
+  margin-left: 10px;
+  display: none;
 }
 @media only screen and (max-width: 600px) {
-    .navbar{
-        width:auto;
-    }
-  .navbar-items{
+  .navbar {
+    width: auto;
+  }
+  .navbar-items {
     display: none;
   }
-  .register{
+  .register {
     display: none;
   }
-  .logo{
+  .logo {
     margin-left: 10%;
   }
 }
-
-
