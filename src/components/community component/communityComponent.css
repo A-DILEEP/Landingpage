@@ -9,7 +9,7 @@
     height: 220px;
     width: 250px;
     margin-top: 25px;
-    box-shadow: 1px 9px 10px 1px var(--mintext-bg);
+    box-shadow: 1px 4px 10px 5px var(--mintext-bg);
     border-radius: 5px;
 }
 .img img{
