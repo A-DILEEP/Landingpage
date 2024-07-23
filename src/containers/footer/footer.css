@@ -155,6 +155,6 @@ a:hover{
     display: grid;
     grid-template-columns: auto auto;
     height: auto;
-    gap: 50px;
+    gap: 35px;
   }
 }
