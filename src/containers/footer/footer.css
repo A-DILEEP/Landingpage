@@ -28,6 +28,10 @@
 .getADemo button:hover{
   box-shadow: 1px 1px 16px var(--color-green);
 }
+a:hover{
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--color-green);
+}
 .footer-bottom {
   background-color: #263238;
   width: 100%;
@@ -136,7 +140,7 @@
   .footer-top {
     height: auto;
     width: auto;
-    margin-top: 25rem;
+    margin-top: 10rem;
   }
   .footer-top-heading p {
     font-size: 30px;

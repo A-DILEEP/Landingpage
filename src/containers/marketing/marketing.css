@@ -34,6 +34,9 @@
 }
 
 @media only screen and (max-width: 600px){
+    .marketing{
+        height: auto;
+    }
     .marketingHeading{
         font-size: 22px; 
         margin-bottom: 5px;   

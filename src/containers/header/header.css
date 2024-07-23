@@ -100,7 +100,7 @@ button {
     align-items: center;
   }
   .bigcontent {
-    font-size: 20px;
+    font-size: 25px;
     line-height:30px;
     margin-bottom: 10px;
     display: flex;
@@ -110,7 +110,7 @@ button {
   .mincontent {
     color: #717171;
     margin-top: 5px;
-    font-size: 10px;
+    font-size: 12px;
     display: inline-block;
   }
   .registerbtn{
