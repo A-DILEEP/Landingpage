@@ -20,4 +20,3 @@ const App = () => {
 }
 
 export default App
-//     @media only screen and (max-width: 600px)
