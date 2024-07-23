@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 500px;
+  height: auto;
   display: flex;
   margin-top: 30px;
   justify-content: center;
@@ -140,7 +140,7 @@ a:hover{
   .footer-top {
     height: auto;
     width: auto;
-    margin-top: 10rem;
+    margin-top: 2rem;
   }
   .footer-top-heading p {
     font-size: 30px;

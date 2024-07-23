@@ -8,20 +8,22 @@ import img5 from "../../assets/img5.png";
 import img6 from "../../assets/img6.png";
 const Clients = () => {
   return (
-    <div className="clients">
-      <div className="heading">Our Clients</div>
-      <div className="subtext">
-        We have been working with some Fortune 500+ clients
+    <section>
+      <div className="clients">
+        <div className="heading">Our Clients</div>
+        <div className="subtext">
+          We have been working with some Fortune 500+ clients
+        </div>
+        <div className="logos">
+          <img src={img1} alt="1" />
+          <img src={img2} alt="2" />
+          <img src={img3} alt="3" />
+          <img src={img4} alt="4" />
+          <img src={img5} alt="5" />
+          <img src={img6} alt="6" />
+        </div>
       </div>
-      <div className="logos">
-        <img src={img1} alt="1" />
-        <img src={img2} alt="2" />
-        <img src={img3} alt="3" />
-        <img src={img4} alt="4" />
-        <img src={img5} alt="5" />
-        <img src={img6} alt="6" />
-      </div>
-    </div>
+    </section>
   );
 }
 

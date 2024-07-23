@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  
 }
 button {
   height: 35px;
@@ -12,4 +13,14 @@ button {
 button :hover {
   cursor: pointer;
   box-shadow: 1px 1px 16px var(--color-green);
+}
+section{
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width: 600px){
+  section{
+    width:100vw;
+    overflow: visible;
+    overflow-x: hidden;
+  }
 }

@@ -1,6 +1,5 @@
 .HowToDesign{
     margin-top: 50px;
-    height: 370px;
     width: 100%;
     display: flex;
     font-family: var(--font-family);
@@ -39,6 +38,7 @@
 
 
  @media only screen and (max-width: 600px){
+
     .HowToDesign{
         display: flex;
         flex-direction: column;
