@@ -1,6 +1,6 @@
 import React from "react";
 import "./helping.css";
-import HelpingComponent from "../../components/helping component/HelpingComponent";
+import HelpingComponent from "../../components/HelpingComponent/HelpingComponent";
 import h1 from "../../assets/h1.png";
 import h2 from "../../assets/h2.png";
 import h3 from "../../assets/h3.png";

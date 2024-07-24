@@ -3,7 +3,7 @@ import "./community.css";
 import hands from "../../assets/hands.png";
 import people from "../../assets/people.png";
 import building from "../../assets/building.png";
-import CommunityComponent from '../../components/community component/communityComponent'
+import CommunityComponent from '../../components/CommunityComponent/communityComponent'
 
 const Community = () => {
   return (

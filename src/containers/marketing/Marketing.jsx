@@ -1,6 +1,6 @@
 import React from "react";
 import "./marketing.css";
-import MarketingComponent from "../../components/marketing component/MarketingComponent";
+import MarketingComponent from "../../components/MarketingComponent/MarketingComponent";
 import marketing1 from "../../assets/marketing1.png";
 import marketing2 from "../../assets/marketing2.png";
 import marketing3 from "../../assets/marketing3.png";

@@ -1,5 +1,5 @@
-export { default as Clients } from "./clients/Clients";
-export { default as CommunityComponent } from "./community component/communityComponent";
-export { default as HelpingComponent } from "../components/helping component/HelpingComponent";
+export { default as Clients } from "./Clients/Clients";
+export { default as CommunityComponent } from "./CommunityComponent/communityComponent";
+export { default as HelpingComponent } from "./HelpingComponent/HelpingComponent";
 export { default as Navbar } from "./navbar/Navbar";
-export { default as MarketingComponent } from "./marketing component/MarketingComponent";
+export { default as MarketingComponent } from "./MarketingComponent/MarketingComponent";
