@@ -45,44 +45,6 @@ button {
   color: #fff;
   cursor: pointer;
 }
-@media (max-width: 360px) {
-  .header {
-    background-color: var(--silver-bg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 20px;
-    flex-direction: column;
-    width: 100%;
-    padding: 20px 10px;
-  }
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .bigcontent {
-    font-size: 20px;
-    font-weight: 600;
-    font-family: var(--font-family);
-    color: var(--mintext-bg);
-    margin-bottom: 10px;
-  }
-  .image img {
-    height: 10rem;
-    width: 200px;
-  }
-  .mincontent {
-    color: #717171;
-    margin-top: 5px;
-    font-size: 10px;
-    display: inline-block;
-  }
-  .registerbtn{
-    margin-bottom: 50px;
-  }
-}
 @media only screen and (max-width: 600px){
   .header{
     width: auto;

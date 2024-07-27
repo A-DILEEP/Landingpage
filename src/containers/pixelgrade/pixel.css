@@ -48,26 +48,7 @@
   cursor: pointer;
   
 }
-@media (max-width: 360px) {
-  .pixelgrade {
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-  }
-  .left img {
-    height: 150px;
-    width: 200px;
-    padding-left: 30px;
-  }
-  .pixel-heading{
-    font-size: 17px;
-    line-height: 20px;
-  }
-  .pixel-text{
-    font-size: 15px;
-    width: 280px;
-  }
-}
+
 @media only screen and (max-width: 600px){
    .pixelgrade {
     display: flex;

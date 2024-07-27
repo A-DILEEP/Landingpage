@@ -26,30 +26,10 @@
 img {
   height: 35px;
 }
-@media (max-width: 360px) {
-  .heading {
-    font-weight: 600;
-    font-size: 15px;
-    color: #3a3a3a;
-    text-shadow: 2px 3px 4px var(--mintext-bg);
-    word-spacing: 4px;
-  }
-  .subtext {
-    font-weight: 300;
-    margin-top: 10px;
-    color: var(--mintext-bg);
-    text-shadow: 2px 3px 5px #717171;
-    font-size: 10px;
-  }
-  .logos {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-  }
-  img {
-    height: 25px;
-  }
-}
+
+
+
+/*responsiveness */
 @media only screen and (max-width: 600px) {
   .heading {
     font-weight: 600;

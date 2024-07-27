@@ -31,25 +31,8 @@
   justify-content: space-evenly;
 }
 
-@media (max-width: 360px) {
-  .community-heading {
-    font-size: 15px;
-  }
-  .middletext {
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-  .community-subtext {
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
-  .boxes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
+/* responsiveness */
+
 @media only screen and (max-width: 600px) {
   .community{
     margin-top: 30px;
