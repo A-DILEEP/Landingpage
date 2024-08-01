@@ -158,3 +158,12 @@ a:hover{
     gap: 35px;
   }
 }
+
+@media only screen and (min-width:768px){
+  .footer-bottom{
+    display: grid;
+    height: max-content;
+    grid-template-columns: auto auto;
+    row-gap: 50px;
+  }
+}

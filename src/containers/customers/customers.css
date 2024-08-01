@@ -10,7 +10,6 @@
 .customers-left img{
     width: 227px;
     height: 227px;
-    margin-left: 180px;
     border-radius: 10px;
 }
 .customers-right{
@@ -93,5 +92,23 @@
     }
     .customers-right-vendors{
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .customers{
+        display: flex;
+        flex-direction: column;
+    }
+    .customers-left{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .customers-right{
+        margin-top: 8rem;
+        width: 100vw;
+        padding: 0px 80px;
+        margin-left: 10rem;
     }
 }

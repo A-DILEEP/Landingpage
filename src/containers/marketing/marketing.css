@@ -53,3 +53,11 @@
         height: auto;
     }
 }
+@media only screen and (min-width:768px){
+    .marketingBottom{
+        margin-top: 3rem;
+        display: grid;
+        gap: 40px;
+        height: max-content;
+    }
+}
