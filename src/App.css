@@ -24,3 +24,9 @@ section{
     overflow-x: hidden;
   }
 }
+@media only screen and (min-width:768px){
+  section{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

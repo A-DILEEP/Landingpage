@@ -59,6 +59,7 @@ li {
   margin-left: 10px;
   display: none;
 }
+
 @media only screen and (max-width: 600px) {
   .navbar {
     width: auto;
@@ -70,11 +71,14 @@ li {
     margin-left: 10%;
   }
 }
-@media only screen and (max-width: 800px){
-  .navbar{
-    width: auto;
-  }
+
+@media only screen and (min-width:768px){
   .navbar-items{
-    display: none;
+    font-size: 12px;
+  }
+  .register{
+    width: 100px;
+    font-size: 12px;
   }
 }
+

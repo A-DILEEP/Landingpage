@@ -63,3 +63,15 @@
     }
  }
 
+@media only screen and (min-width: 768px){
+    .HowToDesign{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        margin-bottom: 100px;
+    }
+    .HowToDesign-right{
+        width: 100%;
+        padding-right: 180px;
+    }
+}

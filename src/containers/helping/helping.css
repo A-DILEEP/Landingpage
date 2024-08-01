@@ -60,3 +60,21 @@
     flex-direction: column;
   }
 }
+
+@media only screen and (min-width:768px) {
+  .helping{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items:flex-start;
+    height:max-content;
+    padding-bottom: 50px;
+  }
+  .helping-left{
+    margin-top: 50px;
+  }
+  .helping-right{
+    display: grid;
+    gap: 30px;
+  }
+}
