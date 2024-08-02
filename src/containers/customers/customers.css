@@ -6,6 +6,7 @@
     align-items: center;
     font-family: var(--font-family);
     background-color: var(--silver-bg);
+    padding-left: 10rem;
 }
 .customers-left img{
     width: 227px;
@@ -95,7 +96,7 @@
     }
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (max-width:768px){
     .customers{
         display: flex;
         flex-direction: column;

@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 .community-heading {
   font-weight: 600;
@@ -56,7 +57,7 @@
   }
 }
 
-@media only screen and (min-width:768px){
+@media only screen and (max-width:768px){
   .boxes{
     display: flex;
     flex-direction: column;
