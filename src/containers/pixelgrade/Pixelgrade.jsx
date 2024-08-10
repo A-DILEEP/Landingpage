@@ -23,7 +23,7 @@ const Pixelgrade = () => {
             elementum pulvinar odio.
           </div>
           <div className="pixel-button">
-            <button>Learn More</button>
+            <button >Learn More</button>
           </div>
         </div>
       </div>

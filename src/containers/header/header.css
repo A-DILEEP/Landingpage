@@ -18,7 +18,7 @@
   font-family: var(--font-family);
   color: var(--mintext-bg);
   line-height: 52.9px;
-  text-shadow: 5px 5px 7px #717171;
+  text-shadow: 5px 4px 7px #717171;
 }
 .bigcontent span {
   color: var(--color-green);
