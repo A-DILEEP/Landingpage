@@ -29,7 +29,6 @@
   box-shadow: 1px 1px 16px var(--color-green);
 }
 a:hover{
-  text-transform: uppercase;
   border-bottom: 2px solid var(--color-green);
 }
 .footer-bottom {
@@ -82,7 +81,7 @@ a:hover{
 }
 .icon-btn:hover{
     transform:rotatex(360deg);
-    transition: 1s linear;
+    transition: 1.5s linear;
 }
 .footer-bottom-company {
   line-height: 25px;
